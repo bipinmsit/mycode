@@ -1,3 +1,8 @@
+# Specify the site name in "SITE"
+# Specify drone flight data in "DATE"
+# Specify session name
+
+
 import os
 import glob
 SITE = "tharangini"
