@@ -118,7 +118,7 @@ visited = pandas.read_csv('survey_visited.csv',keep_default_na=False, na_values=
 
 pandas.isnull(visited.dated)
 
-
+# Read the seaborn package and their tutorials
 
 
 
