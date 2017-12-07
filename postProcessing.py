@@ -1,4 +1,3 @@
-# POSTGIS AUTOMATED CODE
 import os
 import subprocess
 import tkinter
