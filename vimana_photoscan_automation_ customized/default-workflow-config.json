@@ -1,0 +1,68 @@
+{
+   "initial_setup":{
+      "project_name":null,
+      "flight_session_id": null,
+      "project_id": null
+   },
+   "marker_accuracy": 0.01,
+   "estimate_image_quality":{
+      "threshold":0.5
+   },
+   "export_dense_cloud":{
+      "export_formats":["PointsFormatPotree"],
+      "normals": true,
+      "colors": true,
+      "precision": 6,
+      "binary_export":true
+   },
+   "align_photos":{
+      "gpu_mask":15,
+      "coordinate_system":"EPSG::4326",
+      "accuracy":"HighAccuracy",
+      "filter_mask":false,
+      "keypoint_limit":50000,
+      "preselection":"ReferencePreselection",
+      "generic_preselection":false,
+      "reference_preselection":true,
+      "tiepoint_limit":10000
+   },
+   "detect_markers":{
+      "type":"CircularTarget12bit",
+      "tolerance":100,
+      "inverted":false,
+      "noparity":false
+   },
+   "build_dense_cloud":{
+      "gpu_mask":15,
+      "keep_depth":false,
+      "filter":"MildFiltering",
+      "reuse_depth":false,
+      "quality":"HighQuality"
+   },
+   "build_mesh":{
+      "interpolation":"EnabledInterpolation",
+      "surface":"Arbitrary",
+      "source":"DenseCloudData",
+      "face_count":"HighFaceCount",
+      "vertex_colors":true
+   },
+   "build_texture":{
+      "blending":"MosaicBlending",
+      "fill_holes":true,
+      "texture_size":8192,
+      "color_correction":true,
+      "mapping":"OrthophotoMapping",
+      "texture_count":1
+   },
+   "build_dem":{
+      "coordinate_system":"EPSG::9001",
+      "interpolation":"EnabledInterpolation",
+      "source":"DenseCloudData"
+   },
+   "build_orthomosaic":{
+      "fill_holes":true,
+      "blending":"MosaicBlending",
+      "surface":"ElevationData",
+      "color_correction":true
+   }
+}

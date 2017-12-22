@@ -1,0 +1,14 @@
+piexif
+Pillow
+pandas
+pymediainfo
+nose
+sphinx
+networkx
+matplotlib
+pytz
+pymysql
+requests
+urllib3
+charted
+idna
