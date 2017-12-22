@@ -1,0 +1,14 @@
+[Unit]
+Description=RabbitMQ Scheduler Daemon
+After=network.target rabbitmq-server.service
+
+[Service]
+User=pgprocess
+Group=pgprocess
+Type=forking
+Restart=always
+Environment=PYTHONPATH=/usr/local/lib/python3.5/dist-packages
+ExecStart=/home/pgprocess/startup_script.sh 
+
+[Install]
+WantedBy=multi-user.target

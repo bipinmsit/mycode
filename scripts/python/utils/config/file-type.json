@@ -1,0 +1,11 @@
+{
+  "mime": [
+    {"name": "Adobe Portable Document Format (PDF)", "extension": ".pdf", "mime_type": "application/pdf" },
+    {"name": "JPEG images", "extension": ".jpg", "mime_type": "image/jpeg" },
+    {"name": "Tagged Image File Format (TIFF)", "extension": ".tif", "mime_type": "image/tif" },
+    {"name": "Tagged Image File Format (TIFF)", "extension": ".tiff", "mime_type": "image/tiff" },
+    {"name": "Microsoft Excel", "extension": ".xls", "mime_type": "application/vnd.ms-excel" },
+    {"name": "JPEG images", "extension": ".jpeg", "mime_type": "image/jpeg" },
+    {"name": "Portable Network Graphics", "extension": ".png", "mime_type": "image/png" }
+  ]
+}

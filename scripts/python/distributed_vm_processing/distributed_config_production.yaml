@@ -1,0 +1,53 @@
+---
+# <- Production yaml config File
+
+machines:
+- name: Machine-name-1
+  cpu: 1
+  gpu: 1
+- name: Machine-name-2
+  cpu: 2
+  gpu: 2
+steps:
+- name: add_photos
+  cpu: 4
+  gpu: 0
+- name: check_camera_altitude
+  cpu: 4
+  gpu: 0
+- name: estimate_image_quality
+  cpu: 4
+  gpu: 0
+- name: align_photos
+  cpu: 4
+  gpu: 4
+- name: add_gcps
+  cpu: 4
+  gpu: 0
+- name: optimize_camera
+  cpu: 4
+  gpu: 0
+- name: split_chunks
+  cpu: 4
+  gpu: 0
+- name: bounding_box
+  cpu: 4
+  gpu: 0
+- name: build_dense_cloud
+  cpu: 4
+  gpu: 4
+- name: merge_chunks
+  cpu: 4
+  gpu: 0
+- name: build_dem
+  cpu: 4
+  gpu: 0
+- name: build_orthomosaic
+  cpu: 16
+  gpu: 0
+- name: create_shape
+  cpu: 4
+  gpu: 0
+- name: generate_report
+  cpu: 4
+  gpu: 0

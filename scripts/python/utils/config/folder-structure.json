@@ -1,0 +1,58 @@
+{
+  "common" : {
+    "name" : "",
+    "type": "directory",
+    "file": [],
+    "children": []
+  },
+  "images" : {
+    "name" : "Images",
+    "type": "directory",
+    "file": [],
+    "children": []
+  },
+  "input" : {
+    "name" : "Input",
+    "type": "directory",
+    "file": [],
+    "children": []
+  },
+  "output" : {
+    "name" : "Output",
+    "type": "directory",
+    "file": [],
+    "children": []
+  },
+  "photoscan" : {
+    "name" : "Photoscan",
+    "type": "directory",
+    "file": [],
+    "children": []
+  },
+  "project_reports" : {
+    "name" : "Project Reports",
+    "type": "directory",
+    "file": [],
+    "children": [
+      {
+        "name" : "Photoscan Reports",
+        "type": "directory",
+        "file": [],
+        "children": []
+      },
+      {
+        "name" : "Execution Reports",
+        "type": "directory",
+        "file": [],
+        "children": []
+      }
+    ]
+  },
+  "workspace" : {
+    "name" : "Workspace",
+    "type": "directory",
+    "file": [],
+    "children": []
+  }
+
+}

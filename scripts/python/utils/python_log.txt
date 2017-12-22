@@ -1,0 +1,2 @@
+----Created at: Fri Aug 11 19:29:39 2017 ---- 
+Command '['sudo', '/home/ankit_chaurasia/programs/vimana-photoscan-automation/run_photoscan_automation.sh', '/home/data/Projects//Sowparnika/Sowparnika - The Columns/Site Preparation/SN-20170811-2/workflow_config.json']' returned non-zero exit status 1----Finished at: Fri Aug 11 19:29:39 2017 ---- 

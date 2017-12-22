@@ -1,0 +1,59 @@
+---
+# <- Test yaml config File
+
+machines:
+- name: vimana-test-workflow-agent-ubuntu1604-4x15x0-1
+  internal_ip: 10.142.0.27
+  port: 8080
+  zone: us-east1-d
+  cpu: 4
+  gpu: 0
+- name: vimana-test-workflow-agent-ubuntu1604-4x15x2-2
+  internal_ip:  10.142.0.28
+  port: 8080
+  zone: us-east1-d
+  cpu: 4
+  gpu: 4
+steps:
+- name: add_photos
+  cpu: 4
+  gpu: 0
+- name: check_camera_altitude
+  cpu: 4
+  gpu: 0
+- name: estimate_image_quality
+  cpu: 4
+  gpu: 0
+- name: align_photos
+  cpu: 4
+  gpu: 4
+- name: add_gcps
+  cpu: 4
+  gpu: 0
+- name: optimize_camera
+  cpu: 4
+  gpu: 0
+- name: split_chunks
+  cpu: 4
+  gpu: 0
+- name: bounding_box
+  cpu: 4
+  gpu: 0
+- name: build_dense_cloud
+  cpu: 4
+  gpu: 4
+- name: merge_chunks
+  cpu: 4
+  gpu: 0
+- name: build_dem
+  cpu: 4
+  gpu: 0
+- name: build_orthomosaic
+  cpu: 4
+  gpu: 0
+- name: create_shape
+  cpu: 4
+  gpu: 0
+- name: generate_report
+  cpu: 4
+  gpu: 0

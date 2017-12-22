@@ -1,0 +1,37 @@
+{
+  "projectFolderPath": "/home/pgprocess/Projects/",
+  "projectFolderPathWindows": "C:/Projects/",
+  "photoscanCmd" : "/home/pgprocess/programs/vimana-photoscan-automation/run_photoscan_automation.sh",
+  "mapbox_credentials": {
+    "userName": "madhavm",
+    "accessToken": "sk.eyJ1IjoibWFkaGF2bSIsImEiOiJjajNiZnZnbW4wMDVpMndvNzNqNGJtNTRlIn0.nksdjKYVYr7U4F-nmVt7_w"
+  },
+  "apiUrl": "https://workbenchtest.vimanalabs.com/graphql",
+  "work_flow_json": "7e3e6600-7b78-11e7-9181-a791a3163800",
+  "env" : false,
+  "testConfig": {
+    "mysql": {
+      "host": "35.196.29.90",
+      "user": "root",
+      "password": "ywcpkgecELcbuBwk",
+      "db": "vimana_oltp_server"
+    },
+    "viewer_vm":{
+      "vm_name" : "pgprocess@35.196.164.231",
+      "password" : "11Insects!"
+    }
+  },
+  "prodConfig": {
+    "mysql": {
+      "host": "35.188.94.146",
+      "user": "root",
+      "password": "OCcGbkvk5qka38F6",
+      "db": "vimana_oltp_server"
+    },
+    "viewer_vm":{
+      "vm_name" : "pgprocess@35.196.119.171",
+      "password" : "11Insects!"
+    }
+
+  }
+}

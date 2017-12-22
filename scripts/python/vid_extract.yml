@@ -1,0 +1,12 @@
+name: vid_extract
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.5.2
+    - ffmpeg
+    - pandas
+    - pillow
+    - pip:
+        - pymediainfo
+        - piexif

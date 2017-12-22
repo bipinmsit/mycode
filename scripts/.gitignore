@@ -1,0 +1,9 @@
+.vscode/
+*.*~
+.DS_Store
+*.pyc
+# Ignorning VIM swap files
+*.swp
+.idea/
+python/web_service_utils/fix_uploaded_file_metadata/*.csv
+python/datastore_utils/*.csv
