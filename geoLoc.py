@@ -6,11 +6,11 @@ import geopy
 dir(geopy)
 from geopy.geocoders import Nominatim
 nom = Nominatim()
-n=nom.geocode("London eye")
-n
-print(n.longitude, n.latitude)
-%history -f geoGeoLoc.py
-type(n)
+#n=nom.geocode("London eye")
+#n
+#print(n.longitude, n.latitude)
+#%history -f geoGeoLoc.py
+#type(n)
 #add a new address column
 
 df1["Address"]=df1["Address"]+", "+df1["City"]+", "+df1["Country"]
